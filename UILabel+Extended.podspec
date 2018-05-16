@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "UILabel+Extended"
   s.version      = "1.0.0"
-  s.summary      = "A short description of UILabel+Extended."
+  s.summary      = "Extended."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,12 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+   A short description of UILabel+Extended, more fast to create view
                    DESC
 
   # s.homepage     = "http://EXAMPLE/UILabel+Extended"
-  s.homepage     = "https://github.com/wuzhipingdixiao/Test.git"
+  # s.homepage     = "https://github.com/wuzhipingdixiao"
+  s.homepage     = "https://www.baidu.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -67,7 +69,7 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
-  s.platform     =:ios, "7.0"
+  s.platform     =:ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -83,7 +85,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source       = { :git => "http://EXAMPLE/UILabel+Extended.git", :tag => "#{s.version}" }
-  # s.source      = { :git => "https://github.com/wuzhipingdixiao/Test.git", :tag => "1.0.0" }
+  s.source      = { :git => "https://github.com/wuzhipingdixiao/Test.git", :tag => "1.0.0" }
 
 
 
@@ -96,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files  =  "Extended/UILabel+Extended/**/*.{h,m}"
+  # s.source_files  =  "Extended/UILabel+Extended/**/*.{h,m}"
 
   # s.exclude_files = "Classes/Exclude"
 

@@ -15,7 +15,7 @@
 		14F915D320ABD9F800875467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F915D220ABD9F800875467 /* main.m */; };
 		14F915DD20ABD9F900875467 /* ExtendedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F915DC20ABD9F900875467 /* ExtendedTests.m */; };
 		14F915E820ABD9F900875467 /* ExtendedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F915E720ABD9F900875467 /* ExtendedUITests.m */; };
-		14F915F720ABDA1F00875467 /* UILabel+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F915F620ABDA1F00875467 /* UILabel+Extended.m */; };
+		14F9163920AC065600875467 /* UILabel+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9163820AC065600875467 /* UILabel+Extended.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		14F915E320ABD9F900875467 /* ExtendedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtendedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F915E720ABD9F900875467 /* ExtendedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtendedUITests.m; sourceTree = "<group>"; };
 		14F915E920ABD9F900875467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14F915F520ABDA1F00875467 /* UILabel+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extended.h"; sourceTree = "<group>"; };
-		14F915F620ABDA1F00875467 /* UILabel+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extended.m"; sourceTree = "<group>"; };
+		14F9163720AC065600875467 /* UILabel+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extended.h"; sourceTree = "<group>"; };
+		14F9163820AC065600875467 /* UILabel+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extended.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,7 @@
 		14F915C220ABD9F800875467 /* Extended */ = {
 			isa = PBXGroup;
 			children = (
-				14F915F520ABDA1F00875467 /* UILabel+Extended.h */,
-				14F915F620ABDA1F00875467 /* UILabel+Extended.m */,
+				14F9163620AC065600875467 /* UILabel+Extended */,
 				14F915C320ABD9F800875467 /* AppDelegate.h */,
 				14F915C420ABD9F800875467 /* AppDelegate.m */,
 				14F915C620ABD9F800875467 /* ViewController.h */,
@@ -135,6 +134,15 @@
 				14F915E920ABD9F900875467 /* Info.plist */,
 			);
 			path = ExtendedUITests;
+			sourceTree = "<group>";
+		};
+		14F9163620AC065600875467 /* UILabel+Extended */ = {
+			isa = PBXGroup;
+			children = (
+				14F9163720AC065600875467 /* UILabel+Extended.h */,
+				14F9163820AC065600875467 /* UILabel+Extended.m */,
+			);
+			path = "UILabel+Extended";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +281,7 @@
 				14F915C820ABD9F800875467 /* ViewController.m in Sources */,
 				14F915D320ABD9F800875467 /* main.m in Sources */,
 				14F915C520ABD9F800875467 /* AppDelegate.m in Sources */,
-				14F915F720ABDA1F00875467 /* UILabel+Extended.m in Sources */,
+				14F9163920AC065600875467 /* UILabel+Extended.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
